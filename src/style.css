@@ -1,13 +1,21 @@
 body {
-  background-color: #faf9ff;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
   font-family: "Roboto", sans-serif;
 }
 a {
-  color: #885df1;
+  color: #141350;
 }
 
 #weather-app {
-  background-color: white;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
   max-width: 600px;
   margin: 50px auto;
   padding: 30px;
@@ -31,7 +39,7 @@ header {
 .search-form-button {
   padding: 15px 30px;
   border: none;
-  background-color: #885df1;
+  background-color: #141350;
   border-radius: 6px;
   color: white;
   margin-left: 5px;
